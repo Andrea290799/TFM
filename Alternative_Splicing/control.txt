@@ -1,0 +1,1 @@
+Datos_clean/PL-19.R1_Q20.fastq:Datos_clean/PL-19.R2_Q20.fastq,Datos_clean/PL-24.R1_Q20.fastq:Datos_clean/PL-24.R2_Q20.fastq,Datos_clean/PL-27.R1_Q20.fastq:Datos_clean/PL-27.R2_Q20.fastq
