@@ -1,4 +1,4 @@
-This folder contains the script and results of this alternative splicing events analysis. 
+This folder contains the scripts and results of this alternative splicing events analysis. 
 
 SCRIPTS:
   pipeline.sh: it is the main script. It contains all the steps and commands followed to perform the analysis.
