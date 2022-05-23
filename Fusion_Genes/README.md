@@ -1,4 +1,4 @@
-This folder contains the script and results of this fusion transcripts events analysis. 
+This folder contains the scripts and results of this fusion transcripts events analysis. 
 
 SCRIPTS:
   STAR_Fusion.sh: main script used for the analysis. 
