@@ -16,6 +16,6 @@ RESULTS:
   to_GSEA_JC: preranked gene lists (GSEA inputs) for each event in each comparative. Only JC reads are considered. 
 
 GROUPS NOMENCLATURE:
-  C: control
-  ICS: mild
-  UC: severe
+  C: control |
+  ICS: mild |
+  UC: severe |
