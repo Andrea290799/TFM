@@ -18,4 +18,4 @@ RESULTS:
 GROUPS NOMENCLATURE:
   C: control |
   ICS: mild |
-  UC: severe |
+  UC: severe 
