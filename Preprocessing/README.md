@@ -1,10 +1,14 @@
-This folder contains the scripts and results of the data preprocessing analysis. 
+# Data preprocessing
+Once the pair-end-reads files resulting from RNA-analisys are obtained, data preprocessing to increase the sample quality is needed.
 
-SCRIPTS:
-  Preprocess.sh: main script used for quality control and preprocessing. 
-  merge-paired-end-reads.sh: script used for merging the pair-end-reads in a unique file.
-  unmerge-paired-end-reads.sh: script used for separing the pair-end-reads unique file into 2 different files.
+## _Preprocess.sh_
 
-RESULTS:
-  fastqc_results_pre_preprocessing: FastQC quality control files before preprocessing. 
-  fastqc_results_post_preprocessing: FastQC quality control files after preprocessing. 
+This script carries out the following tasks:
+
+- Quality analisys pre-preprocessing with FastQC (results in `fastqc_results_pre_preprocessing`)
+- Merging the pair-end-reads files with `merge-paired-reads.sh`
+- Removing rRNAS in case that there are contaminations with SortMeRNA software
+- Unmerging the pair-end-reads files with `unmerge-paired-reads.sh`
+- Trimming adapters with BBDuk software
+- Finding and removing adapter sequences, primers, poly-A tails and other types of unwanted sequences with Cutadapt software
+- Quality analisys post-preprocessing with FastQC (results in `fastqc_results_post_preprocessing`)
