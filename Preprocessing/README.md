@@ -13,4 +13,11 @@ This script carries out the following tasks:
 - Finding and removing adapter sequences, primers, poly-A tails and other types of unwanted sequences with Cutadapt software
 - Quality analisys post-preprocessing with FastQC (results in `fastqc_results_post_preprocessing`)
 
+**USAGE**
+~~~
+$ Preprocess.sh
+~~~ 
+
+** You have to take into account the neccessary changes in paths, file names and variables for the script to properly work
+
 
