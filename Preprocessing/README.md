@@ -12,3 +12,5 @@ This script carries out the following tasks:
 - Trimming adapters with BBDuk software
 - Finding and removing adapter sequences, primers, poly-A tails and other types of unwanted sequences with Cutadapt software
 - Quality analisys post-preprocessing with FastQC (results in `fastqc_results_post_preprocessing`)
+
+
