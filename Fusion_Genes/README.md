@@ -7,7 +7,7 @@ Once the data is preprocessed, the fusion transcripts analysis can be performed.
 This script develops the next functions:
 - Detecting the fusion transcripts present in each sample using STAR-Fusion software. Results are stored in `STAR_Fusion_output`. 
 
-**USAGE*
+**USAGE**
 ~~~
 $ STAR-Fusion.sh
 ~~~ 
@@ -17,7 +17,7 @@ $ STAR-Fusion.sh
 This script develops the next functions:
 - Fuse together in a matrix the transcript fusions detected of each patient with information about presence, absence and coding effect. 
 
-**USAGE*
+**USAGE**
 ~~~
 $ fusions_filtering.R
 ~~~ 
